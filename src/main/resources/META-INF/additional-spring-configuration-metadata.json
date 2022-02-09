@@ -1,0 +1,12 @@
+{"properties": [
+  {
+    "name": "btn.jwtSecret",
+    "type": "java.lang.String",
+    "description": "A description for 'btn.jwtSecret'"
+  },
+  {
+    "name": "btn.jwtExpirationMs",
+    "type": "java.lang.String",
+    "description": "A description for 'btn.jwtExpirationMs'"
+  }
+]}
