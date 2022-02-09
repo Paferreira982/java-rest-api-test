@@ -3,11 +3,14 @@ package com.boteconordestinos.api.payload.response;
 import java.util.List;
 
 public class JwtResponse {
+	private Long id;
+	
 	private String token;
 	private String type = "Bearer";
-	private Long id;
 	private String username;
+	
 	private Boolean active;
+	
 	private List<String> roles;
 	
 	public JwtResponse(String accessToken, Long id, String username, Boolean active, List<String> roles) {

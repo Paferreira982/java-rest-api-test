@@ -42,7 +42,6 @@ public class JwtUtils {
 	}
 	
 	public boolean validateJwtToken(String authToken) {
-		
 		try {
 			Jwts.parser().setSigningKey(jwtSecret).parseClaimsJws(authToken);
 			return true;
@@ -57,7 +56,6 @@ public class JwtUtils {
 		} catch (Exception e) {
 			logger.error("Exception: {}", e.getMessage());
 		}
-		
 		return false;
 	}
 	
