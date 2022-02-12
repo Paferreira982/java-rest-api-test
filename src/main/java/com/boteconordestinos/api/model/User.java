@@ -39,7 +39,12 @@ public class User {
 		this.password = password;
 		this.active = true;
 	}
-	
+	public User(String username, String password, Set<Role> roles) {
+		this.username = username;
+		this.password = password;
+		this.active = true;
+		this.roles = roles;
+	}
 	public Long getId() {
 		return id;
 	}
