@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.boteconordestinos</groupId>
 	<artifactId>btn-api</artifactId>
-	<version>0.0.2-SNAPSHOT</version>
+	<version>0.0.3-SNAPSHOT</version>
 	<name>btn-api</name>
 	<description>Web project for boteco nordestinos application.</description>
 	<properties>
